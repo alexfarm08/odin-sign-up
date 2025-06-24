@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url(fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: "SF Pro Bold";
+    src: url(fonts/SF-Pro-Display-Bold.otf);
+}
+
+:root {
+    --fonts: "SF Pro Regular", "akzidenz-grotesk-next-pro", sans-serif;
+    --fonts-cap: "SF Pro Bold", sans-serif; 
+
+    --white: #f5f5f5;
+    --black: #000000;
+    --blue: #0088cc;
+}
