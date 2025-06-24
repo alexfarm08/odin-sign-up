@@ -65,3 +65,26 @@ table {
     --black: #000000;
     --blue: #0088cc;
 }
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    color: var(--black);
+    line-height: 1.5;
+    overflow: hidden;
+    height: 100vh;
+}
+
+header {
+    background: url(imgs/kirsten-frank-LySQAtdjGzI-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+}
