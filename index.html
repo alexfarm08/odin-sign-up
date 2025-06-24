@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Armstrong">
+    <meta name="description" content="This page is a sample sign up page made for the odin project">
+    <title>Odin Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img alt="" src="imgs/odin-lined.png" width="380" height="508">
+        <h1>ODIN</h1>
+        <p>Photo by <a target="_blank" href="https://unsplash.com/@fakurian">Milad Fakurian</a> on <a target="_blank" href="https://unsplash.com/">unsplash</a></p>
+    </header>
+    <main>
+        <p>This is not a real online service! You know you need something like this in your life. come on just sign up and make your dreams come true.</p>
+        <p>You know you want to!</p>
+        <form>
+            <legend>Lets do this!</legend>
+            <div>
+                <label for="first-name">FIRST NAME<span class="required">*</span></label>
+                <input type="text" name="first-name" id="first-name" required>
+            </div>
+            <div>
+                <label for="last-name">LAST NAME<span class="required">*</span></label>
+                <input type="text" name="last-name" id="last-name" required>
+            </div>
+            <div>
+                <label for="email">EMAIL<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="password">PASSWORD<span class="required">*</span></label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="con-password">CONFIRM PASSWORD<span class="required">*</span></label>
+                <input type="password" name="con-password" id="con-password" required>
+            </div>
+            <input type="submit" name="my-submit" id="my-submit" value="Create Account">
+        </form>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </main>
+</body>
+</html>
