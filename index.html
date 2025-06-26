@@ -10,47 +10,46 @@
     <link rel="stylesheet" href="https://use.typekit.net/gce1xhl.css">
 </head>
 <body>
-    <header>
-        <div class="headerBackGround">
-            <img alt="" src="imgs/odin-lined.png" width="95" height="127">
-            <h1>ODIN</h1>
-        </div>
-        <div class="headerBackGround">
-            <p>Photo by <a target="_blank" href="https://unsplash.com/@kirsten_frank">Kirsten Frank</a> on <a target="_blank" href="https://unsplash.com/">unsplash</a></p>
-        </div>
-    </header>
-    <main>
-        <p>This is not a real online service! You know you need something like this in your life. come on just sign up and make your dreams come true.</p>
-        <p>You know you want to!</p>
-        <form>
-            <legend>Lets do this!</legend>
-            <div>
-                <label for="first-name">FIRST NAME<span class="required">*</span></label>
-                <input type="text" name="first-name" id="first-name" required>
+    <div class="page-container">
+        <header>
+            <div id="logoDiv" class="headerBackGround">
+                <img id="odin" alt="" src="imgs/odin-lined.png" width="95" height="127">
+                <h1>ODIN</h1>
             </div>
-            <div>
-                <label for="last-name">LAST NAME<span class="required">*</span></label>
-                <input type="text" name="last-name" id="last-name" required>
+            <div class="footer">
+                <p>Photo by <a class="footerLink" target="_blank" href="https://newsroom.spotify.com/media-kit/">Spotify</a></p>
             </div>
-            <div>
-                <label for="email">EMAIL<span class="required">*</span></label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" name="phone" id="phone">
-            </div>
-            <div>
-                <label for="password">PASSWORD<span class="required">*</span></label>
-                <input type="password" name="password" id="password" required>
-            </div>
-            <div>
-                <label for="con-password">CONFIRM PASSWORD<span class="required">*</span></label>
-                <input type="password" name="con-password" id="con-password" required>
-            </div>
-            <input type="submit" name="my-submit" id="my-submit" value="Create Account">
-        </form>
-        <p>Already have an account? <a href="#">Log in</a></p>
-    </main>
+        </header>
+        <main>
+            <section id="signUp-content">
+                <p id="call-to-action">This is not a real online service! You know you need something like this in your life. come on just sign up and make your dreams come true.</p>
+                <p id="action-statment">You know you want to!</p>
+                <form action="" method="POST">
+                    <legend>Lets do this!</legend>
+
+                    <label class="firstNameLabel" for="first-name">FIRST NAME<span class="required">*</span></label>
+                    <input class="firstNameInput" type="text" name="first-name" id="first-name" required>
+            
+                    <label class="lastNameLabel" for="last-name">LAST NAME<span class="required">*</span></label>
+                    <input class="lastNameInput" type="text" name="last-name" id="last-name" required>
+                
+                    <label class="emailLabel" for="email">EMAIL<span class="required">*</span></label>
+                    <input class="emailInput" type="email" name="email" id="email" required>
+                
+                    <label class="phoneLabel" for="phone">PHONE NUMBER</label>
+                    <input class="phoneInput" type="tel" name="phone" id="phone">
+                
+                    <label class="passwordLabel" for="password">PASSWORD<span class="required">*</span></label>
+                    <input class="passwordInput" type="password" name="password" id="password" required>
+                
+                    <label class="passConLabel" for="con-password">CONFIRM PASSWORD<span class="required">*</span></label>
+                    <input class="passConInput" type="password" name="con-password" id="con-password" required>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Create Account">
+                </form>
+                <p id="logInText">Already have an account? <a id="logIn" href="#">Log in</a></p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
