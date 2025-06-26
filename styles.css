@@ -253,6 +253,12 @@ input:focus, input:focus-visible{
     font-weight: bold;
 }
 
+#my-submit:hover {
+    background-color: var(--green);
+    padding: 1.5rem;
+}
+
+
 #logInText {
     color: rgb(174, 174, 174);
 }
